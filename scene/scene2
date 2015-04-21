@@ -1,0 +1,78 @@
+obj cylinder
+	in 0 100 -20
+	rayon 5
+	rotate 0 90 0
+	!cylinder
+	color 255 255 255
+	brightness 100
+!obj
+obj cylinder
+	in 0 100 20
+	rayon 5
+	rotate 0 90 0
+	!cylinder
+	color 255 255 255
+	brightness 100
+!obj
+obj cylinder
+	in -40 100 0
+	rayon 4
+	rotate 0 0 0
+	!cylinder
+	color 255 255 255
+	brightness 100
+!obj
+obj cylinder
+	in -20 100 0
+	rayon 4
+	rotate 0 0 0
+	!cylinder
+	color 255 255 255
+	brightness 100
+!obj
+obj cylinder
+	in 0 100 0
+	rayon 4
+	rotate 0 0 0
+	!cylinder
+	color 255 255 255
+	transparency 50
+!obj
+obj cylinder
+	in 20 100 0
+	rayon 4
+	rotate 0 0 0
+	!cylinder
+	color 255 255 255
+!obj
+obj cylinder
+	in 40 100 0
+	rayon 4
+	rotate 0 0 0
+	!cylinder
+	color 255 255 255
+!obj
+obj plane
+	in 0 200 0
+	rotate 90 0 0
+	!plane
+	color 200 100 200
+!obj
+obj sphere
+	in 0 75 0
+	rayon 8
+	!sphere
+	color 100 255 175
+	brightness 100
+	transparency 40
+!obj
+#endobj
+spot
+	in -10 0 0
+	color 100 100 100
+!spot
+spot
+	in 10 0 0
+	color 100 100 100
+!spot
+#endspot

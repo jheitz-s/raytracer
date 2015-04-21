@@ -1,0 +1,64 @@
+obj plane
+	in 0 0 -10
+	rotate 0 0 0
+	!plane
+	color 255 255 255
+	reflexion 80
+	brightness 100
+	perlin 1
+!obj
+obj plane
+	in 0 0 10
+	rotate 0 0 0
+	!plane
+	color 25 25 25
+	reflexion 80
+	brightness 100
+!obj
+obj plane
+	in 10 0 0
+	rotate 0 90 0
+	!plane
+	color 25 25 25
+	reflexion 80
+	brightness 100
+	perlin 1
+!obj
+obj plane
+	in 0 60 0
+	rotate 90 0 0
+	!plane
+	color 25 25 25
+	reflexion 80
+	brightness 100
+!obj
+obj sphere
+	in 0 50 0
+	rayon 4
+	!sphere
+	color 25 25 25
+	reflexion 80
+	brightness 100
+!obj
+obj sphere
+	in -15 50 -6
+	rayon 4
+	!sphere
+	color 25 25 25
+	reflexion 80
+	brightness 100
+!obj
+#endobj
+spot
+	in 0 0 0
+	color 200 200 200
+!spot
+spot
+	in -50 0 0
+	color 255 100 100
+!spot
+spot
+	in 5 0 10
+	color 100 100 255
+!spot
+#endspot

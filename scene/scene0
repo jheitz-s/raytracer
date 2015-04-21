@@ -1,0 +1,56 @@
+alias on
+5
+obj sphere
+	in 25 70 -2
+	rayon 4
+	!sphere
+	color 255 100 100
+	brightness 40
+!obj
+obj sphere
+	in -25 70 -2
+	rayon 4
+	!sphere
+	color 255 100 100
+	brightness 40
+!obj
+obj cone
+	in -10 80 0
+	rotate 0 -50 0
+	open 10
+	!cone
+	color 0 0 255
+	brightness 50
+!obj
+obj cylinder
+	in 2 80 0
+	rayon 3
+	rotate 0 50 0
+	!cylinder
+	color 0 100 0
+	brightness 80
+!obj
+obj plane
+	in 0 0 -7
+	rotate 0 0 0
+	!plane
+	color 255 20 255
+	brightness 40
+!obj
+obj plane
+	in 0 150 0
+	rotate 90 0 0
+	!plane
+	color 200 100 155
+	brightness 40
+!obj
+#endobj
+spot
+	in -15 -50 15
+	color 200 200 200
+!spot
+spot
+	in -15 50 15
+	color 200 200 200
+!spot
+#endspot

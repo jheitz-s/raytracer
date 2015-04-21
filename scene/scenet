@@ -1,0 +1,286 @@
+obj sphere
+	in 30 80 -6
+	rayon 4
+	!sphere
+	color 39 71 138
+	brightness 40
+!obj
+obj sphere
+	in -30 80 -6
+	rayon 4
+	!sphere
+	color 39 71 138
+	brightness 40
+!obj
+obj cylinder
+	in 30 80 0
+	rayon 3
+	rotate 0 0 0
+	!cylinder
+	color 54 228 255
+	brightness 80
+	transparency 40
+!obj
+obj cylinder
+	in 30 100 0
+	rayon 3
+	rotate 0 0 0
+	!cylinder
+	color 54 228 255
+	brightness 80
+	transparency 40
+!obj
+obj sphere
+	in 30 100 -6
+	rayon 4
+	!sphere
+	color 39 71 138
+	brightness 40
+!obj
+obj sphere
+	in 30 120 -6
+	rayon 4
+	!sphere
+	color 39 71 138
+	brightness 40
+!obj
+obj cylinder
+	in 30 120 0
+	rayon 3
+	rotate 0 0 0
+	!cylinder
+	color 54 228 255
+	brightness 80
+	transparency 40
+!obj
+obj cylinder
+	in -30 100 0
+	rayon 3
+	rotate 0 0 0
+	!cylinder
+	color 54 228 255
+	brightness 80
+	transparency 40
+!obj
+obj sphere
+	in -30 100 -6
+	rayon 4
+	!sphere
+	color 39 71 138
+	brightness 40
+!obj
+obj sphere
+	in -30 120 -6
+	rayon 4
+	!sphere
+	color 39 71 138
+	brightness 40
+!obj
+obj cylinder
+	in -30 120 0
+	rayon 3
+	rotate 0 0 0
+	!cylinder
+	color 54 228 255
+	brightness 80
+	transparency 40
+!obj
+obj cylinder
+	in 30 60 0
+	rayon 3
+	rotate 0 0 0
+	!cylinder
+	color 54 228 255
+	brightness 80
+	transparency 40
+!obj
+obj sphere
+	in 30 60 -6
+	rayon 4
+	!sphere
+	color 39 71 138
+	brightness 40
+!obj
+obj cylinder
+	in -30 60 0
+	rayon 3
+	rotate 0 0 0
+	!cylinder
+	color 54 228 255
+	brightness 80
+	transparency 40
+!obj
+obj cone
+	in 0 153 0
+	rotate 0 0 0
+	open 10
+	!cone
+	color 54 228 255
+	transparency 40
+!obj
+obj sphere
+	in 0 70 2
+	rayon 10
+	!sphere
+	color 0 100 0
+	brightness 40
+	reflexion 100
+!obj
+obj sphere
+	in -20 0 -2
+	rayon 10
+	!sphere
+	color 39 71 138
+	brightness 40
+	perlin 1
+!obj
+obj sphere
+	in -20 0 15
+	rayon 10
+	!sphere
+	color 39 71 138
+	brightness 40
+	perlin 1
+!obj
+obj sphere
+	in -38 0 15
+	rayon 10
+	!sphere
+	color 39 71 138
+	brightness 40
+	perlin 1
+!obj
+obj sphere
+	in -56 0 15
+	rayon 10
+	!sphere
+	color 39 71 138
+	brightness 40
+	perlin 1
+!obj
+obj sphere
+	in -45 0 33
+	rayon 10
+	!sphere
+	color 39 71 138
+	brightness 40
+	perlin 1
+!obj
+obj sphere
+	in -33 0 48
+	rayon 10
+	!sphere
+	color 39 71 138
+	brightness 40
+	perlin 1
+!obj
+obj sphere
+	in -21 0 63
+	rayon 10
+	!sphere
+	color 39 71 138
+	brightness 40
+	perlin 1
+!obj
+obj sphere
+	in 56 0 -4
+	rayon 10
+	!sphere
+	color 39 71 138
+	brightness 40
+	perlin 1
+!obj
+obj sphere
+	in 20 0 -2
+	rayon 10
+	!sphere
+	color 39 71 138
+	brightness 40
+	perlin 1
+!obj
+obj sphere
+	in 20 0 15
+	rayon 10
+	!sphere
+	color 39 71 138
+	brightness 40
+	perlin 1
+!obj
+obj sphere
+	in 32 0 30
+	rayon 10
+	!sphere
+	color 39 71 138
+	brightness 40
+	perlin 1
+!obj
+obj sphere
+	in 48 0 45
+	rayon 10
+	!sphere
+	color 39 71 138
+	brightness 40
+	perlin 1
+!obj
+obj sphere
+	in 48 0 64
+	rayon 10
+	!sphere
+	color 39 71 138
+	brightness 40
+	perlin 1
+!obj
+obj sphere
+	in 20 0 64
+	rayon 10
+	!sphere
+	color 39 71 138
+	brightness 40
+	perlin 1
+!obj
+obj sphere
+	in -30 60 -6
+	rayon 4
+	!sphere
+	color 39 71 138
+	brightness 40
+!obj
+obj cylinder
+	in -30 80 0
+	rayon 3
+	rotate 0 0 0
+	!cylinder
+	color 54 228 255
+	brightness 80
+	transparency 40
+!obj
+obj plane
+	in 0 0 -7
+	rotate 0 0 0
+	!plane
+	color 39 71 138
+	brightness 40
+	perlin 1
+!obj
+obj plane
+	in 0 150 0
+	rotate 90 0 0
+	!plane
+	color 200 100 155
+	brightness 40
+	reflexion 100
+!obj
+#endobj
+spot
+	in -15 50 15
+	color 200 200 200
+!spot
+spot
+	in 15 50 15
+	color 200 200 200
+!spot
+#endspot
+cam
+	pos 0 0 20
+	rot 0 0 0
+!cam

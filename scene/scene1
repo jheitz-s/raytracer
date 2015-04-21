@@ -1,0 +1,30 @@
+obj sphere
+	rayon 5
+	in 0 50 0
+	!sphere
+	color 200 100 200
+	brightness 100
+!obj
+obj plane
+	in 0 0 -7
+	rotate 0 0 0
+	!plane
+!obj
+#endobj
+spot
+	in 0 0 0
+	color 100 100 100
+!spot
+spot
+	in 0 50 30
+	color 100 100 100
+!spot
+spot
+	in 25 50 30
+	color 100 100 100
+!spot
+spot
+	in -25 50 30
+	color 100 100 100
+!spot
+#endspot
